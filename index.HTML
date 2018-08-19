@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/homeStyling.css">
+
+	<title>Alarm Clock</title>
+
+</head>
+<body onload="getTime();">
+	<input type="datetime-local" id="alarmTime"/>
+
+	<button onclick="setAlarm(this);"
+	id="alarmButton" class="buttons">Set Alarm</button>
+
+		<div class="" id="alarmOptions" style="display: none;">
+			<button onclick="snooze()" class="buttons">Snooze 10 minutes</button>
+			<button onclick="stopAlarm();"type="button" name="button"
+			class="buttons">Stop Alarm</button>
+		</div>
+
+		<center><p id="clock"></p></center>
+		<!-- to show the current time -->
+
+		<!-- <center><p id="gaCountdown"></p>btw</center> -->
+</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

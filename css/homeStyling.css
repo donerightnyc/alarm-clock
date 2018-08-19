@@ -1,0 +1,20 @@
+body {
+	background-color: black;
+}
+#clock{
+	text-align: center;
+	font-size: 190px;
+	color: lime;
+}
+
+.buttons{
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
+
+#alarmTime {
+	background-color: black;
+	color: white;
+	font-size: 30px;
+}
